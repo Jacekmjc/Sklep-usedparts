@@ -1,0 +1,102 @@
+.content {
+    margin-left: 5.5%;
+    margin-top: 2%;
+
+}
+
+.box img {
+    width: 300px;
+    height: 250px;
+    padding: 1em;
+}
+
+
+
+.box {
+    margin-top: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.purchase {
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+.row {
+    margin-top: 1.5%;
+
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    transition: 0.3s;
+
+}
+
+.box:hover {
+    border-color: #FF7B33;
+
+}
+
+/* FOOTER STARTS */
+
+footer .col-sm-6 {
+    margin-left: 310px;
+}
+
+
+/* FOOTER ENDS */
+
+
+
+.container h3 {
+    color: black;
+}
+
+/* BACK TO TOP STARTS */
+
+a.back-to-top {
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: url("../res/up-arrow.png") no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+/* BACK TO TOP ENDS */
+
+/* ADD TO CART BUTTON STARTS */
+#myButton {
+    background-color: black;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #FF7B33;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    padding: 3px 0px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 38%;
+    transition: 0.3s;
+}
+
+
+#myButton:hover {
+    background-color: white;
+    color black;
+}
+
+/* ADD TO CART BUTTON ENDS */

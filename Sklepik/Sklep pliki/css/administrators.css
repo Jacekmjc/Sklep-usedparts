@@ -1,0 +1,74 @@
+body {
+    background-image: url("../tlo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#header {
+    position: relative;
+    top: 0px;
+    font-family: 'Bree Serif', 'Agency FB';
+    font-size: 60px;
+    padding-left: 30%;
+}
+
+#website {
+    width: 450px;
+    height: 150px;
+    background-color: #FF7B33;
+    border-radius: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    opacity: 0.9;
+    line-height: 75px;
+}
+
+#inventory {
+    width: 450px;
+    height: 150px;
+    background-color: #FF7B33;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    opacity: 0.9;
+    line-height: 75px;
+}
+
+p {
+    color: white;
+}
+
+
+#logoutButton {
+    display: block;
+    background-color: #FF7B33;
+    min-width: 100px;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+    min-height: 15px;
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+    border-radius: 3px;
+    transition:.3s;
+}
+
+#logoutButton:hover {
+    background-color: black;
+    color:white;
+    border:1px solid #FF7B33;
+}
+
